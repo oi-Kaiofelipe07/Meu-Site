@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(134, 11, 11);
+    padding: 16px 0 ;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto ;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista img{
+    height: 24px;
+}
+
+.lista li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section{
+    color: rgb(62, 6, 6);
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.lojaimg{
+    margin-right: 32px;
+    width: 50%;
+}
+
+#contact .container{
+    display:block ;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color:rgba(153, 146, 146, 0.627);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(151, 163, 117) ;
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(44, 29, 255);
+}
+
+.Links img{
+    height: 24px;
+}
+
+.Links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.Links li a {
+    text-decoration: none;
+}
